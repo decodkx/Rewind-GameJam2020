@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Move : MonoBehaviour
 {
-    public Rigidbody2D rb;
+    Rigidbody2D rb;
 
     float horizontal;
     float vertical;
