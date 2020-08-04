@@ -22,9 +22,14 @@ public class EnemyPatrol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector2.MoveTowards(transform.position, moveSpots[randomSpot].position, speed * Time.deltaTime); 
+        movePath();
+    }
 
-        if(Vector2.Distance(transform.position, moveSpots[randomSpot].position)< 0.2f)
+    void movePath()
+    {
+        transform.position = Vector2.MoveTowards(transform.position, moveSpots[randomSpot].position, speed * Time.deltaTime);
+
+        if (Vector2.Distance(transform.position, moveSpots[randomSpot].position) < 0.2f)
         {
             randomSpot = Random.Range(0, moveSpots.Length);
             waitTime = startWaitTime;
@@ -34,4 +39,6 @@ public class EnemyPatrol : MonoBehaviour
             waitTime -= Time.deltaTime;
         }
     }
+
+    
 }
