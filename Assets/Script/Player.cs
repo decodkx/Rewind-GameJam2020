@@ -6,9 +6,11 @@ public class Player : MonoBehaviour
 {
     // Start is called before the first frame update
     int life = 3;
-    public List<Image> lifes; 
+    public List<Image> lifes;
+    GameController gameController;
     void Start()
     {
+        gameController = FindObjectOfType<GameController>();
         RestartLife();
     }
 
@@ -59,7 +61,7 @@ public class Player : MonoBehaviour
         if (life <= 0)
         {
             print("GameOver");
-            gameObject.BroadcastMessage("setGameOver");
+            gameController.setGameOver();
         }
     }
 
