@@ -5,11 +5,14 @@ using UnityEngine.UI;
 public class Player : MonoBehaviour
 {
     // Start is called before the first frame update
-    int life = 3;
+    int maxLife = 3;
+    int life;
     public List<Image>lifes;
     GameController gameController;
     void Start()
     {
+        life = maxLife;
+        print(life);
         gameController = FindObjectOfType<GameController>();
         RestartLife();
     }
@@ -24,21 +27,14 @@ public class Player : MonoBehaviour
     {
         life -= 1;
         GameOver();
-        if (life < 3 && life >0) //Dps tirar
-        {
-            lifes[life].enabled = false;
-        }
+        lifes[life].enabled = false;
         print(life);
     }
 
     void GainLife()
     {
         life +=1;
-        if (life <= 3) //Dps tirar
-        {
-            lifes[(life-1)].enabled = true;
-        }
-        
+        lifes[(life-1)].enabled = true;
         print("To com " + life);
     }
 
@@ -55,8 +51,11 @@ public class Player : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("life"))
         {
-            Destroy(collision.gameObject);
-            GainLife();
+            if (life < maxLife)
+            {
+                GainLife();
+                Destroy(collision.gameObject);
+            }
         }
     }
 
@@ -76,7 +75,7 @@ public class Player : MonoBehaviour
             img.enabled = true;
         }
 
-        life = 3; 
+        life = maxLife; 
     }
 
 
