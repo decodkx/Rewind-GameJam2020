@@ -5,21 +5,40 @@ using UnityEngine;
 public class ReelTape : MonoBehaviour
 {
     Animator anim;
-    float coil;
+    Move scriptMovement;
+    float reel;
 
     void Start()
     {
+        scriptMovement = GetComponent<Move>();
         anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetAxis("Horizontal") > 0)
-        {
-            coil += 0.0005f;
-            anim.SetFloat("process", coil);
-        }
+        if(scriptMovement.withGas) reel += 0.001f * Input.GetAxis("Horizontal");//scriptMovement.inversor;
+        reel = Mathf.Clamp(reel, 0, 0.91f);
 
+        switch (scriptMovement.inversor)
+        {
+            case (1):
+                anim.SetFloat("process", reel);
+                if (reel > 0.9f)
+                {
+                    scriptMovement.inversor = -1;
+                    anim.SetBool("flip", true);
+                }
+                else scriptMovement.withGas = true;
+                break;
+            case (-1):
+                anim.SetFloat("process", 1 - reel);
+                if (reel < 0.08f)
+                {
+                    scriptMovement.inversor = 1;
+                    anim.SetBool("flip", false);
+                }
+                break;
+        }
     }
 }

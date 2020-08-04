@@ -17,7 +17,8 @@ public class Move : MonoBehaviour
     public float timeToAccel = 0.7f;
     float functionVelocity = 0.0f;
 
-    int inversor = 1;
+    public int inversor = 1;
+    public bool withGas = true;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -25,10 +26,15 @@ public class Move : MonoBehaviour
 
     void Update()
     {
-        horizontal =  Mathf.SmoothDamp(horizontal, inversor * Input.GetAxis("Horizontal"),ref functionVelocity, timeToAccel);
-        vertical = inversor *Input.GetAxis("Vertical");
+        if (withGas)
+        {
+            horizontal = Mathf.SmoothDamp(horizontal, inversor * Input.GetAxis("Horizontal"), ref functionVelocity, timeToAccel);
+            vertical = inversor * Input.GetAxis("Vertical");
+
+            direction = new Vector3(horizontal, Mathf.Clamp(vertical, floorLimit, ceilingLimit));
+        }
+        else direction = Vector3.zero;   
         
-        direction = new Vector3(horizontal, Mathf.Clamp(vertical, floorLimit, ceilingLimit));
         transform.position += direction * speed * Time.deltaTime;
 
         RaycastCeiling();

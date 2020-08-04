@@ -627,7 +627,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 44e4b2c9b38cea647b6f0e2c41969f05, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 520ae86d340c19d43acd12f02ccdd838, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2041,6 +2041,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 15
   timeToAccel: 0.7
+  inversor: 1
+  withGas: 1
 --- !u!212 &1525255593
 SpriteRenderer:
   m_ObjectHideFlags: 0
