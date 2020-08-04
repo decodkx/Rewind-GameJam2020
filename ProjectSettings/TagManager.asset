@@ -6,6 +6,8 @@ TagManager:
   tags:
   - obstacle
   - life
+  - limit
+  - enemy
   layers:
   - Default
   - TransparentFX
