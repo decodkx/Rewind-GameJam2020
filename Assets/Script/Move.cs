@@ -46,8 +46,8 @@ public class Move : MonoBehaviour
         Vector2 destiny = new Vector2(transform.position.x, transform.position.y + 1.3f);
         RaycastHit2D hit = Physics2D.Linecast(start, destiny);
 
-        if (hit.collider)
-            ceilingLimit = 0;
+        if (hit.collider && hit.collider.gameObject.tag == "limit")
+                ceilingLimit = 0;
         else
             ceilingLimit = 1;
     }
@@ -58,11 +58,9 @@ public class Move : MonoBehaviour
         Vector2 destiny = new Vector2(transform.position.x, transform.position.y - 1.3f);
         RaycastHit2D hit = Physics2D.Linecast(start, destiny);
 
-        if (hit.collider)
-        {
+        if (hit.collider && hit.collider.gameObject.tag == "limit")
             floorLimit = 0;
-        }
         else
-            floorLimit = -1;
+            floorLimit = -1; 
     }
 }
