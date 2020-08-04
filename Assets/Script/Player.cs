@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
 {
     // Start is called before the first frame update
     int life = 3;
-    public List<Image> lifes;
+    public List<Image>lifes;
     GameController gameController;
     void Start()
     {
@@ -49,6 +49,10 @@ public class Player : MonoBehaviour
             Destroy(collision.gameObject);
             LostLife();
         }
+        else if (collision.gameObject.CompareTag("enemy"))
+        {
+            LostLife();
+        }
         else if (collision.gameObject.CompareTag("life"))
         {
             Destroy(collision.gameObject);
@@ -65,12 +69,14 @@ public class Player : MonoBehaviour
         }
     }
 
-    void RestartLife()
+    public void RestartLife()
     {
         foreach(Image img in lifes)
         {
             img.enabled = true;
         }
+
+        life = 3; 
     }
 
 
