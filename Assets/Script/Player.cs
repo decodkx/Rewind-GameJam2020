@@ -8,6 +8,8 @@ public class Player : MonoBehaviour
     int maxLife = 3;
     int life;
     public List<Image>lifes;
+    public float thrust = 1;
+
     GameController gameController;
 
     Rigidbody2D playerRigidbody;
@@ -41,29 +43,6 @@ public class Player : MonoBehaviour
         print("To com " + life);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("obstacle"))
-        {
-            Destroy(collision.gameObject);
-            LostLife();
-        }
-        else if (collision.gameObject.CompareTag("enemy"))
-        {
-            Destroy(collision.gameObject);
-            LostLife();
-
-        }
-        else if (collision.gameObject.CompareTag("life"))
-        {
-            if (life < maxLife)
-            {
-                GainLife();
-                Destroy(collision.gameObject);
-            }
-        }
-    }
-
     void GameOver()
     {
         if (life <= 0)
@@ -81,6 +60,28 @@ public class Player : MonoBehaviour
         }
 
         life = maxLife; 
+    }
+
+    public void SetObjectCollision(string collisor)
+    {
+        TriggerCollision(collisor);
+    }
+
+
+    private void TriggerCollision(string tagCollisior)
+    {
+        if (tagCollisior == "obstacle" || tagCollisior == "enemy")
+        {
+            LostLife();
+        }
+        else if (tagCollisior == "life")
+        {
+            if (life < maxLife)
+            {
+                GainLife();
+            }
+        }
+
     }
 
 
