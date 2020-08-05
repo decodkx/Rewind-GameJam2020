@@ -50,6 +50,7 @@ public class Player : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("enemy"))
         {
+            Destroy(collision.gameObject);
             LostLife();
 
         }
