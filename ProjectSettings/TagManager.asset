@@ -18,7 +18,7 @@ TagManager:
   - 
   - 
   - HUD
-  - 
+  - Character
   - 
   - 
   - 
@@ -48,6 +48,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: New Layer
-    uniqueID: 4196577949
+  - name: Background
+    uniqueID: 484291735
+    locked: 0
+  - name: Character
+    uniqueID: 749839549
+    locked: 0
+  - name: HUD
+    uniqueID: 3782216195
     locked: 0

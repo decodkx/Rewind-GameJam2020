@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 using UnityEngine.SocialPlatforms.GameCenter;
 using UnityEngine.UI;
@@ -18,7 +19,6 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
     }
 
     void PausePlay()
@@ -33,11 +33,12 @@ public class GameController : MonoBehaviour
     public void setGameOver()
     {
         Time.timeScale = 0;
-        print("Chegou a mensagem de Game Over");
         panel.SetActive(true);
         gameOverCanvas.SetActive(true);
 
     }
+    
+
 
 
 }

@@ -27,6 +27,7 @@ public class EnemyPatrol : MonoBehaviour
 
     void movePath()
     {
+        
         transform.position = Vector2.MoveTowards(transform.position, moveSpots[randomSpot].position, speed * Time.deltaTime);
 
         if (Vector2.Distance(transform.position, moveSpots[randomSpot].position) < 0.2f)
