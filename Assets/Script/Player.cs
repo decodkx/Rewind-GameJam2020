@@ -9,12 +9,16 @@ public class Player : MonoBehaviour
     int life;
     public List<Image>lifes;
     GameController gameController;
+
+    Rigidbody2D playerRigidbody;
     void Start()
     {
         life = maxLife;
         print(life);
         gameController = FindObjectOfType<GameController>();
         RestartLife();
+
+        playerRigidbody = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -47,6 +51,7 @@ public class Player : MonoBehaviour
         else if (collision.gameObject.CompareTag("enemy"))
         {
             LostLife();
+
         }
         else if (collision.gameObject.CompareTag("life"))
         {

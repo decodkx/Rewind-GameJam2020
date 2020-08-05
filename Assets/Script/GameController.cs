@@ -33,7 +33,6 @@ public class GameController : MonoBehaviour
     public void setGameOver()
     {
         Time.timeScale = 0;
-        print("Chegou a mensagem de Game Over");
         panel.SetActive(true);
         gameOverCanvas.SetActive(true);
 
