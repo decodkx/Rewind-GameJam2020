@@ -33,8 +33,8 @@ public class Move : MonoBehaviour
 
             direction = new Vector3(horizontal, Mathf.Clamp(vertical, floorLimit, ceilingLimit));
         }
-        else direction = Vector3.zero;   
-        
+        else direction = Vector3.zero;
+
         transform.position += direction * speed * Time.deltaTime;
 
         RaycastCeiling();

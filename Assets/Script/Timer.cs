@@ -37,7 +37,5 @@ public class Timer : MonoBehaviour
             ended = true;
             gameController.setGameOver();
         }
-
-
     }
 }
