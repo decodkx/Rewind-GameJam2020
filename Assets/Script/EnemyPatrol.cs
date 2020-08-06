@@ -101,11 +101,4 @@ public class EnemyPatrol : MonoBehaviour
 
     }
 
-
-
-
-
-
-
-
 }

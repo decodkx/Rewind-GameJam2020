@@ -39,6 +39,7 @@ public class Move : MonoBehaviour
 
         RaycastCeiling();
         RaycastFloor();
+
     }
 
     void RaycastCeiling()
