@@ -1,49 +1,43 @@
 fileFormatVersion: 2
-guid: c81a111d4113206419d396bf1897ab80
+guid: bee241b458b76ba4b8b06b272c394cd9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8972521258438952371
-    second: rotatingtape_00
+      213: 4170269508534145004
+    second: robo_meteoro_0
   - first:
-      213: 3685530793690313539
-    second: rotatingtape_0
+      213: -6897972891157585151
+    second: robo_meteoro_1
   - first:
-      213: 6186541261391977082
-    second: rotatingtape_1
+      213: -378629628576878168
+    second: robo_meteoro_2
   - first:
-      213: -5630628090221030620
-    second: rotatingtape_3
+      213: 5296906041300886417
+    second: robo_meteoro_3
   - first:
-      213: 3152505713296732450
-    second: rotatingtape_4
+      213: -3557044956378558170
+    second: robo_meteoro_4
   - first:
-      213: -7936092353744694086
-    second: rotatingtape_5
+      213: 4434865379599017585
+    second: robo_meteoro_5
   - first:
-      213: 2433682565967055644
-    second: rotatingtape_6
+      213: 655020932493362788
+    second: robo_meteoro_6
   - first:
-      213: -6920738213614443420
-    second: rotatingtape_7
+      213: 9035817330346833085
+    second: robo_meteoro_7
   - first:
-      213: 5073949952174641627
-    second: rotatingtape_8
+      213: 4087322045957782153
+    second: robo_meteoro_8
   - first:
-      213: -3074407869125835251
-    second: rotatingtape_9
+      213: -7719848728371198957
+    second: robo_meteoro_9
   - first:
-      213: -3664356843160803769
-    second: rotatingtape_10
+      213: 8535792696883166395
+    second: robo_meteoro_10
   - first:
-      213: -6101383072196920184
-    second: rotatingtape_11
-  - first:
-      213: 4993995284583262437
-    second: rotatingtape_12
-  - first:
-      213: 6959310688353095547
-    second: rotatingtape_2
+      213: 4792631015571694558
+    second: robo_meteoro_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -141,295 +135,253 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rotatingtape_00
+      name: robo_meteoro_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 3
-        width: 31
-        height: 18
+        y: 0
+        width: 30
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4afa1334733b7380800000000000000
-      internalID: -8972521258438952371
+      spriteID: cef02d1e506cfd930800000000000000
+      internalID: 4170269508534145004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rotatingtape_0
+      name: robo_meteoro_1
       rect:
         serializedVersion: 2
-        x: 36
-        y: 3
-        width: 23
-        height: 18
+        x: 30
+        y: 0
+        width: 30
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 343bca6eab2a52330800000000000000
-      internalID: 3685530793690313539
+      spriteID: 1032748d33a7540a0800000000000000
+      internalID: -6897972891157585151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rotatingtape_1
+      name: robo_meteoro_2
       rect:
         serializedVersion: 2
-        x: 75
-        y: 3
-        width: 12
-        height: 18
+        x: 60
+        y: 0
+        width: 30
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7ad091ef720bd550800000000000000
-      internalID: 6186541261391977082
+      spriteID: 8a1bc3fdb56debaf0800000000000000
+      internalID: -378629628576878168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rotatingtape_3
+      name: robo_meteoro_3
       rect:
         serializedVersion: 2
-        x: 138
-        y: 3
-        width: 12
-        height: 18
+        x: 90
+        y: 0
+        width: 30
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4231a04959dfbd1b0800000000000000
-      internalID: -5630628090221030620
+      spriteID: 1932c58faf3628940800000000000000
+      internalID: 5296906041300886417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rotatingtape_4
+      name: robo_meteoro_4
       rect:
         serializedVersion: 2
-        x: 165
-        y: 3
-        width: 23
-        height: 18
+        x: 120
+        y: 0
+        width: 30
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 221f0795e33ffbb20800000000000000
-      internalID: 3152505713296732450
+      spriteID: 62116fc4576d2aec0800000000000000
+      internalID: -3557044956378558170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rotatingtape_5
+      name: robo_meteoro_5
       rect:
         serializedVersion: 2
-        x: 193
-        y: 3
-        width: 31
-        height: 18
+        x: 150
+        y: 0
+        width: 30
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab49a5e2d065dd190800000000000000
-      internalID: -7936092353744694086
+      spriteID: 1766da9d09ecb8d30800000000000000
+      internalID: 4434865379599017585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rotatingtape_6
+      name: robo_meteoro_6
       rect:
         serializedVersion: 2
-        x: 257
-        y: 3
-        width: 31
-        height: 18
+        x: 180
+        y: 0
+        width: 30
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1b0788466d26c120800000000000000
-      internalID: 2433682565967055644
+      spriteID: 46646b1511a171900800000000000000
+      internalID: 655020932493362788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rotatingtape_7
+      name: robo_meteoro_7
       rect:
         serializedVersion: 2
-        x: 293
-        y: 3
-        width: 23
-        height: 18
+        x: 210
+        y: 0
+        width: 30
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4642a0a234994ff90800000000000000
-      internalID: -6920738213614443420
+      spriteID: db434a6fcfba56d70800000000000000
+      internalID: 9035817330346833085
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rotatingtape_8
+      name: robo_meteoro_8
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98abfe7ceb519b830800000000000000
+      internalID: 4087322045957782153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo_meteoro_9
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3140fa9ab769dd490800000000000000
+      internalID: -7719848728371198957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo_meteoro_10
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc3816bb3a357670800000000000000
+      internalID: 8535792696883166395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo_meteoro_11
       rect:
         serializedVersion: 2
         x: 330
-        y: 3
-        width: 12
-        height: 18
+        y: 0
+        width: 30
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd1da7b399a4a6640800000000000000
-      internalID: 5073949952174641627
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rotatingtape_9
-      rect:
-        serializedVersion: 2
-        x: 366
-        y: 3
-        width: 5
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d06c61af4528555d0800000000000000
-      internalID: -3074407869125835251
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rotatingtape_10
-      rect:
-        serializedVersion: 2
-        x: 395
-        y: 3
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 746e021add6952dc0800000000000000
-      internalID: -3664356843160803769
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rotatingtape_11
-      rect:
-        serializedVersion: 2
-        x: 420
-        y: 3
-        width: 23
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88cfe1f1c68835ba0800000000000000
-      internalID: -6101383072196920184
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rotatingtape_12
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 3
-        width: 31
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e8af83804c3e4540800000000000000
-      internalID: 4993995284583262437
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rotatingtape_2
-      rect:
-        serializedVersion: 2
-        x: 110
-        y: 3
-        width: 5
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b7f8dd4f230749060800000000000000
-      internalID: 6959310688353095547
+      spriteID: ed3aba62488d28240800000000000000
+      internalID: 4792631015571694558
       vertices: []
       indices: 
       edges: []
