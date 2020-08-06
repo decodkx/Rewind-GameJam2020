@@ -2,14 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
+using UnityEngine.UI;
 
 public class Restart : MonoBehaviour
 {
-    Player player;
+    GameController gameController;
+    
     // Start is called before the first frame update
     void Start()
     {
-        player = FindObjectOfType<Player>();
+        gameController = FindObjectOfType<GameController>();
     }
 
     // Update is called once per frame
@@ -20,8 +23,6 @@ public class Restart : MonoBehaviour
 
     public void ButtonRestart()
     {
-        player.RestartLife();
-        SceneManager.LoadScene("Scene1");
-        Time.timeScale = 1;
+        gameController.setRestart();
     }
 }
