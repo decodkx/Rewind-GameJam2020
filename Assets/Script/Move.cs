@@ -39,11 +39,6 @@ public class Move : MonoBehaviour
 
         RaycastCeiling();
         RaycastFloor();
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            inversor *= -1;
-        }
     }
 
     void RaycastCeiling()

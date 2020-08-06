@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6648844106599043300}
   - component: {fileID: 6648844106599043297}
   m_Layer: 0
-  m_Name: sign
+  m_Name: sign 4
   m_TagString: obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 749839549
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7406083864272285672, guid: c6ab7a3123e454045a994a5352388b01,
+  m_Sprite: {fileID: 3201038603456116242, guid: 5756e0040f04c4944b834d84622e8e1f,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -111,7 +111,7 @@ Animator:
   m_GameObject: {fileID: 6648844106599043301}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2ec1d0fdb8ba19c4790f03df7307f4c7, type: 2}
+  m_Controller: {fileID: 9100000, guid: 6f921040bae6dc74a8f584e3163a101f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -133,18 +133,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.017670251, y: 0}
+  m_Offset: {x: 0.016, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.23, y: 0.76}
+    oldSize: {x: 0.3, y: 0.57}
     newSize: {x: 0.23, y: 0.76}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.19465952, y: 0.76}
+  m_Size: {x: 0.26, y: 0.46}
   m_EdgeRadius: 0
 --- !u!1 &7527399194893310696
 GameObject:
@@ -188,7 +188,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.0990566, b: 0.9235813, a: 1}
+  m_Color: {r: 0.9716981, g: 0.1054201, b: 0.1054201, a: 1}
   m_Intensity: 3.68
   m_Range: 10
   m_SpotAngle: 30

@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Drawing;
 using UnityEngine;
 
 public class obstacle : MonoBehaviour
@@ -8,14 +9,15 @@ public class obstacle : MonoBehaviour
     bool crash = false;
     Animator anim;
     public BoxCollider2D col;
+    public GameObject light;
 
     void Start()
     {
         player = FindObjectOfType<Player>();
-        if (this.tag == "obstacle")
+        if (gameObject.CompareTag("obstacle"))
         {
-            col = this.GetComponent<BoxCollider2D>();
-            anim = this.GetComponent<Animator>();
+            col = GetComponent<BoxCollider2D>();
+            anim = GetComponent<Animator>();
         }
     }
 
@@ -35,6 +37,7 @@ public class obstacle : MonoBehaviour
                 crash = true;
                 anim.SetBool("crash", crash);
                 Destroy(col);
+                Destroy(light);
             }
             else
                 Destroy(this.gameObject);
