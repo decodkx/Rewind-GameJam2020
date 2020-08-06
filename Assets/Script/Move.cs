@@ -5,6 +5,7 @@ using UnityEngine;
 public class Move : MonoBehaviour
 {
     Rigidbody2D rb;
+    public float distance = 2;
 
     float horizontal;
     float vertical;

@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     int maxLife = 3;
     int life;
     public List<Image>lifes;
-    public float thrust = 1;
+
 
     GameController gameController;
 
