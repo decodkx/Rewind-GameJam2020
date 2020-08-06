@@ -84,6 +84,18 @@ public class Player : MonoBehaviour
 
     }
 
+    public bool LifeFull()
+    {
+        if (life < maxLife)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+    }
+
 
 
 

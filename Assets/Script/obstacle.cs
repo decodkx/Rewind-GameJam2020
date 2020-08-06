@@ -31,7 +31,6 @@ public class obstacle : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            player.SetObjectCollision(this.tag);
             if (this.gameObject.CompareTag("obstacle"))
             {
                 crash = true;
@@ -39,8 +38,21 @@ public class obstacle : MonoBehaviour
                 Destroy(col);
                 Destroy(light);
             }
+           else if (this.gameObject.CompareTag("life"))
+            {
+                bool lifeFull = player.LifeFull();
+                if (lifeFull == false)
+                {
+                    Destroy(this.gameObject);
+                }
+                print("Vida esta " + lifeFull);
+            }
             else
+            {
                 Destroy(this.gameObject);
+            }
+        
+            player.SetObjectCollision(this.tag);
         }
     }
 }
