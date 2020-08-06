@@ -20,24 +20,6 @@ TextureImporter:
   - first:
       213: -7903607337503746128
     second: tapeRewinding_5
-  - first:
-      213: -8764588990122889671
-    second: tapeRewinding_0
-  - first:
-      213: 8804856697221892865
-    second: tapeRewinding_1
-  - first:
-      213: 756073800220192470
-    second: tapeRewinding_2
-  - first:
-      213: -5978126264305829364
-    second: tapeRewinding_3
-  - first:
-      213: 3294948425495799259
-    second: tapeRewinding_4
-  - first:
-      213: 6349422354994490678
-    second: tapeRewinding_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -140,8 +122,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 34
-        height: 18
+        width: 32
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,8 +131,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93eec6110cced5680800000000000000
-      internalID: -8764588990122889671
+      spriteID: 7e0a50a13479cdca0800000000000000
+      internalID: -5990747089854422809
       vertices: []
       indices: 
       edges: []
@@ -159,10 +141,10 @@ TextureImporter:
       name: tapeRewinding_1
       rect:
         serializedVersion: 2
-        x: 34
+        x: 32
         y: 0
-        width: 34
-        height: 18
+        width: 32
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,8 +152,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10b41281482213a70800000000000000
-      internalID: 8804856697221892865
+      spriteID: 3d31732e49c506380800000000000000
+      internalID: -8980075862456593453
       vertices: []
       indices: 
       edges: []
@@ -180,10 +162,10 @@ TextureImporter:
       name: tapeRewinding_2
       rect:
         serializedVersion: 2
-        x: 68
+        x: 64
         y: 0
-        width: 34
-        height: 18
+        width: 32
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,8 +173,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6deaa1e8d1d1e7a00800000000000000
-      internalID: 756073800220192470
+      spriteID: ffdad4a89b3714360800000000000000
+      internalID: 7152124923967548927
       vertices: []
       indices: 
       edges: []
@@ -201,10 +183,10 @@ TextureImporter:
       name: tapeRewinding_3
       rect:
         serializedVersion: 2
-        x: 102
+        x: 96
         y: 0
-        width: 34
-        height: 18
+        width: 32
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,8 +194,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0a3e9906dd690da0800000000000000
-      internalID: -5978126264305829364
+      spriteID: 34cbbee9bf20ea370800000000000000
+      internalID: 8335603240035662915
       vertices: []
       indices: 
       edges: []
@@ -222,10 +204,10 @@ TextureImporter:
       name: tapeRewinding_4
       rect:
         serializedVersion: 2
-        x: 136
+        x: 128
         y: 0
-        width: 34
-        height: 18
+        width: 32
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,8 +215,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd5e8e6b2220abd20800000000000000
-      internalID: 3294948425495799259
+      spriteID: 0d05de1c5abe51ce0800000000000000
+      internalID: -1434981809091948336
       vertices: []
       indices: 
       edges: []
@@ -243,10 +225,10 @@ TextureImporter:
       name: tapeRewinding_5
       rect:
         serializedVersion: 2
-        x: 170
+        x: 160
         y: 0
-        width: 34
-        height: 18
+        width: 32
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,8 +236,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63dee5ebdfdad1850800000000000000
-      internalID: 6349422354994490678
+      spriteID: 0b71beb600fb05290800000000000000
+      internalID: -7903607337503746128
       vertices: []
       indices: 
       edges: []
