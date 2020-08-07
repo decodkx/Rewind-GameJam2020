@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
-using UnityEngine.SocialPlatforms.GameCenter;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
