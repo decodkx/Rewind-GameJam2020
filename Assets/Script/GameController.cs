@@ -12,11 +12,9 @@ public class GameController : MonoBehaviour
     public GameObject gameOverCanvas;
     private Player player;
     private Fade fade;
-    private Timer time;
     // Start is called before the first frame update
     void Start()
     {
-        time = FindObjectOfType<Timer>();
         player = FindObjectOfType<Player>();
         fade = FindObjectOfType<Fade>();
         panel.SetActive(false);
@@ -27,6 +25,14 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+    }
+
+    void PausePlay()
+    {
+        if (Time.timeScale == 1)
+        {
+            Time.timeScale = 0;
+        }
 
     }
 
@@ -46,9 +52,7 @@ public class GameController : MonoBehaviour
         panel.SetActive(false);
         gameOverCanvas.SetActive(false);
         StartCoroutine("MudarCena");
-        
         SceneManager.LoadScene("Scene1");
-        time.Restart();
 
         Time.timeScale = 1;
     }

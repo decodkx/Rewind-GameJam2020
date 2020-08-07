@@ -33,18 +33,21 @@ public class Player : MonoBehaviour
         life -= 1;
         GameOver();
         lifes[life].enabled = false;
+        print(life);
     }
 
     void GainLife()
     {
         life +=1;
         lifes[(life-1)].enabled = true;
+        print("To com " + life);
     }
 
     void GameOver()
     {
         if (life <= 0)
         {
+            print("GameOver");
             gameController.setGameOver();
         }
     }

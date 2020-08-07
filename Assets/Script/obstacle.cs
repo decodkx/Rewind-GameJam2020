@@ -45,6 +45,7 @@ public class obstacle : MonoBehaviour
                 {
                     Destroy(this.gameObject);
                 }
+                print("Vida esta " + lifeFull);
             }
             else
             {

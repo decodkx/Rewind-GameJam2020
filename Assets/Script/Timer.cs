@@ -16,7 +16,6 @@ public class Timer : MonoBehaviour
     bool ended = false;
     void Start()
     {
-        startTime = 60;
         gameController = FindObjectOfType<GameController>();
     }
 
@@ -38,11 +37,5 @@ public class Timer : MonoBehaviour
             ended = true;
             gameController.setGameOver();
         }
-    }
-
-
-    public void Restart()
-    {
-        startTime = 60;
     }
 }

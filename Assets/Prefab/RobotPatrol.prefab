@@ -168,8 +168,6 @@ MonoBehaviour:
   moveSpots:
   - {fileID: 4097814398533039311}
   - {fileID: 4097814397091853320}
-  - {fileID: 4097814398533039311}
-  - {fileID: 4097814397091853320}
   moveSpotsRewind:
   - {fileID: 6110899355684981521}
   - {fileID: 4097814398533039311}
