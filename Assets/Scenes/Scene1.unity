@@ -3644,12 +3644,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -14010,6 +14010,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6648844106599043302, guid: 13832ed94dd70c44cbcce1ea64396f3a,
     type: 3}
   m_PrefabInstance: {fileID: 1416619084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1788172028 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6648844106599043302, guid: 19d4cd1741da9ac47bfc4261adec79cd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1811505852}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1789244223
 GameObject:
