@@ -84,7 +84,6 @@ public class EnemyPatrol : MonoBehaviour
         {
             index = 0;
         }
-        print(index);
 
     }
 
