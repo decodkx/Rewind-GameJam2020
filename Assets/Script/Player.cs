@@ -15,7 +15,7 @@ public class Player : MonoBehaviour
     #region To shake things up                  
     Vector3 cameraInitialPosition;
     public float shakeMagnetude = 0.01f, shakeTime = 0.5f;
-    public Camera mainCamera;
+    public Cam mainCamera;
     #endregion
 
     void Start()
@@ -35,6 +35,7 @@ public class Player : MonoBehaviour
 
     void LostLife()
     {
+        mainCamera.StartShake(0.3f, 0.08f);
         life -= 1;
         GameOver();
         lifes[life].enabled = false;
