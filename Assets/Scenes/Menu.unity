@@ -775,7 +775,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5006af43c36a56441a8110a2157a815f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cenaDestino: Scene1
+  cenaDestino: Tutorial1
 --- !u!114 &2106034911
 MonoBehaviour:
   m_ObjectHideFlags: 0
