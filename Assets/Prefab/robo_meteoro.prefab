@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6548041314525656469}
   - component: {fileID: 6548041314525656470}
   - component: {fileID: 2417219900740793491}
+  - component: {fileID: 1285598374796267493}
   m_Layer: 0
   m_Name: robo_meteoro
   m_TagString: enemy
@@ -146,3 +147,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.12829718, y: 0.08432256}
   m_EdgeRadius: 0
+--- !u!114 &1285598374796267493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6548041314525656466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2fc8ea554d5824898ed84dbbb071b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  col: {fileID: 0}
+  light: {fileID: 0}
