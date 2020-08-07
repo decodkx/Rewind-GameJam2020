@@ -8,7 +8,6 @@ public class Timer : MonoBehaviour
     public Text timer;
     GameController gameController;
 
-    float startTime = 60;
     float t;
     string minutes;
     string seconds;
@@ -17,14 +16,16 @@ public class Timer : MonoBehaviour
     void Start()
     {
         gameController = FindObjectOfType<GameController>();
+        t = 62;
     }
 
     // Update is called once per frame
     void Update()
     {
+        t -= Time.deltaTime; 
         if (!ended)
         {
-            t = startTime - Time.time;
+            //t = startTime - ;
             minutes = ((int)t / 60).ToString();
             seconds = (t % 60).ToString("f3");
 
