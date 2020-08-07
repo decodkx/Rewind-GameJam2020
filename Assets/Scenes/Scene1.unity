@@ -1109,81 +1109,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &548681262
-PrefabInstance:
+--- !u!95 &519420033
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 925805127}
-    m_Modifications:
-    - target: {fileID: 2091600648341954067, guid: 9b208ccb38314064da71728161cbccc0,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 87.21
-      objectReference: {fileID: 0}
-    - target: {fileID: 2091600648341954067, guid: 9b208ccb38314064da71728161cbccc0,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -8.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2091600648341954067, guid: 9b208ccb38314064da71728161cbccc0,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 25.666874
-      objectReference: {fileID: 0}
-    - target: {fileID: 2091600648341954067, guid: 9b208ccb38314064da71728161cbccc0,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2091600648341954067, guid: 9b208ccb38314064da71728161cbccc0,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2091600648341954067, guid: 9b208ccb38314064da71728161cbccc0,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2091600648341954067, guid: 9b208ccb38314064da71728161cbccc0,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2091600648341954067, guid: 9b208ccb38314064da71728161cbccc0,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 26
-      objectReference: {fileID: 0}
-    - target: {fileID: 2091600648341954067, guid: 9b208ccb38314064da71728161cbccc0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2091600648341954067, guid: 9b208ccb38314064da71728161cbccc0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2091600648341954067, guid: 9b208ccb38314064da71728161cbccc0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2190808349955323255, guid: 9b208ccb38314064da71728161cbccc0,
-        type: 3}
-      propertyPath: m_Name
-      value: RobotPatrol (3)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9b208ccb38314064da71728161cbccc0, type: 3}
---- !u!4 &548681263 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2091600648341954067, guid: 9b208ccb38314064da71728161cbccc0,
-    type: 3}
-  m_PrefabInstance: {fileID: 548681262}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e0a29b3092ddfa5478e5388f693cf239, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &577143445
 PrefabInstance:
   m_ObjectHideFlags: 0
