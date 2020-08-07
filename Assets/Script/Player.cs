@@ -4,15 +4,20 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Player : MonoBehaviour
 {
-    // Start is called before the first frame update
     int maxLife = 3;
     int life;
     public List<Image>lifes;
 
-
     GameController gameController;
 
     Rigidbody2D playerRigidbody;
+
+    #region To shake things up                  
+    Vector3 cameraInitialPosition;
+    public float shakeMagnetude = 0.01f, shakeTime = 0.5f;
+    public Camera mainCamera;
+    #endregion
+
     void Start()
     {
         life = maxLife;
@@ -96,7 +101,27 @@ public class Player : MonoBehaviour
         }
     }
 
+    public void Shake()
+    {
+        cameraInitialPosition = mainCamera.transform.position;
+        InvokeRepeating("StartCameraShaking", 0f, 0.005f);
+        Invoke("StopCameraShaking", shakeTime);
+    }
 
+    void StartCameraShaking()
+    {
+        float cameraShakingOffsetX = Random.value * shakeMagnetude * 2 - shakeMagnetude;
+        float cameraShakingOffsetY = Random.value * shakeMagnetude * 2 - shakeMagnetude;
+        Vector3 cameraIntermadiatePosition = mainCamera.transform.position;
+        cameraIntermadiatePosition.x += cameraShakingOffsetX;
+        cameraIntermadiatePosition.y += cameraShakingOffsetY;
+        mainCamera.transform.position = cameraIntermadiatePosition;
+    }
 
+    void StopCameraShaking()
+    {
+        CancelInvoke("StartCameraShaking");
+        mainCamera.transform.position = cameraInitialPosition;
+    }
 
 }
