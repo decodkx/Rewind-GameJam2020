@@ -38,7 +38,7 @@ public class obstacle : MonoBehaviour
                 Destroy(col);
                 Destroy(light);
             }
-           else if (this.gameObject.CompareTag("life"))
+           /*else if (this.gameObject.CompareTag("life"))
             {
                 bool lifeFull = player.LifeFull();
                 if (lifeFull == false)
@@ -46,7 +46,7 @@ public class obstacle : MonoBehaviour
                     Destroy(this.gameObject);
                 }
                 print("Vida esta " + lifeFull);
-            }
+            } */
             else
             {
                 Destroy(this.gameObject);
@@ -54,6 +54,21 @@ public class obstacle : MonoBehaviour
         
             player.SetObjectCollision(this.tag);
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (this.gameObject.CompareTag("life"))
+        {
+            bool lifeFull = player.LifeFull();
+            if (lifeFull == false)
+            {
+                Destroy(this.gameObject);
+            }
+            
+        }
+
+        player.SetObjectCollision(this.tag);
     }
 }
 
