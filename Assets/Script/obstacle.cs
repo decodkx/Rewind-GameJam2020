@@ -10,9 +10,11 @@ public class obstacle : MonoBehaviour
     Animator anim;
     public BoxCollider2D col;
     public GameObject light;
+    private AudioSource audio;
 
     void Start()
     {
+        audio = GetComponent<AudioSource>();
         player = FindObjectOfType<Player>();
         if (gameObject.CompareTag("obstacle"))
         {
@@ -51,7 +53,8 @@ public class obstacle : MonoBehaviour
             {
                 Destroy(this.gameObject);
             }
-        
+            audio.Play();
+            print("Tocou o audio");
             player.SetObjectCollision(this.tag);
         }
     }
