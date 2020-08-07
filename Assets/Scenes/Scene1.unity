@@ -3954,7 +3954,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: olar
+  m_Text: 0.00,000
 --- !u!222 &1330773636
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4685,7 +4685,6 @@ MonoBehaviour:
   - {fileID: 1697309752}
   - {fileID: 1068375547}
   - {fileID: 1390777654}
-  time: 60
   shakeMagnetude: 0.01
   shakeTime: 0.5
   mainCamera: {fileID: 519420030}
@@ -11204,7 +11203,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: {fileID: 1330773635}
-  player: {fileID: 0}
 --- !u!114 &1708280770
 MonoBehaviour:
   m_ObjectHideFlags: 0
