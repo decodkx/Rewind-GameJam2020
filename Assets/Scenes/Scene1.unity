@@ -1019,7 +1019,6 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
-  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1104,31 +1103,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -20}
+  m_LocalPosition: {x: 5.8, y: 0, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &519420033
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 0
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e0a29b3092ddfa5478e5388f693cf239, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &577143445
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1292,6 +1272,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 925805127}
     m_Modifications:
+    - target: {fileID: 6648844106599043297, guid: 13832ed94dd70c44cbcce1ea64396f3a,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6648844106599043301, guid: 13832ed94dd70c44cbcce1ea64396f3a,
         type: 3}
       propertyPath: m_Name
@@ -1600,6 +1585,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 925805127}
     m_Modifications:
+    - target: {fileID: 6648844106599043297, guid: 4422e1ca2d1875e4bb137ce022fe54eb,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6648844106599043301, guid: 4422e1ca2d1875e4bb137ce022fe54eb,
         type: 3}
       propertyPath: m_Name
@@ -2627,6 +2617,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 925805127}
     m_Modifications:
+    - target: {fileID: 6648844106599043297, guid: 4422e1ca2d1875e4bb137ce022fe54eb,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6648844106599043301, guid: 4422e1ca2d1875e4bb137ce022fe54eb,
         type: 3}
       propertyPath: m_Name
@@ -3034,6 +3029,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 925805127}
     m_Modifications:
+    - target: {fileID: 6648844106599043297, guid: effc398143d39bc449698e4fe1a9b77a,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6648844106599043301, guid: effc398143d39bc449698e4fe1a9b77a,
         type: 3}
       propertyPath: m_Name
@@ -3910,7 +3910,7 @@ MonoBehaviour:
   - {fileID: 1390777654}
   shakeMagnetude: 0.01
   shakeTime: 0.5
-  mainCamera: {fileID: 519420031}
+  mainCamera: {fileID: 519420030}
 --- !u!114 &1525255598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10647,6 +10647,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 925805127}
     m_Modifications:
+    - target: {fileID: 6648844106599043297, guid: 13832ed94dd70c44cbcce1ea64396f3a,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6648844106599043301, guid: 13832ed94dd70c44cbcce1ea64396f3a,
         type: 3}
       propertyPath: m_Name
@@ -11390,6 +11395,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 925805127}
     m_Modifications:
+    - target: {fileID: 6648844106599043297, guid: effc398143d39bc449698e4fe1a9b77a,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6648844106599043301, guid: effc398143d39bc449698e4fe1a9b77a,
         type: 3}
       propertyPath: m_Name
@@ -64757,6 +64767,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 925805127}
     m_Modifications:
+    - target: {fileID: 6648844106599043297, guid: 4422e1ca2d1875e4bb137ce022fe54eb,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6648844106599043301, guid: 4422e1ca2d1875e4bb137ce022fe54eb,
         type: 3}
       propertyPath: m_Name

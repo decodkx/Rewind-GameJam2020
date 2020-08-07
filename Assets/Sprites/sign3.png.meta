@@ -32,6 +32,18 @@ TextureImporter:
   - first:
       213: 8487074221522107838
     second: sign3_9
+  - first:
+      213: -4802940342530256089
+    second: sign3_0
+  - first:
+      213: -7139037050078987747
+    second: sign3_1
+  - first:
+      213: 3798014391599527263
+    second: sign3_2
+  - first:
+      213: 4837265188977977515
+    second: sign3_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -143,8 +155,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06ee85ce0c8361030800000000000000
-      internalID: 3465019364558302816
+      spriteID: 723571e9437885db0800000000000000
+      internalID: -4802940342530256089
       vertices: []
       indices: 
       edges: []
@@ -164,8 +176,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40ab86237ca9d21c0800000000000000
-      internalID: -4526791870102586876
+      spriteID: d1a70bf80ab0dec90800000000000000
+      internalID: -7139037050078987747
       vertices: []
       indices: 
       edges: []
@@ -185,8 +197,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 170938ec50c7f1220800000000000000
-      internalID: 2458820285948989553
+      spriteID: f557c1767f145b430800000000000000
+      internalID: 3798014391599527263
       vertices: []
       indices: 
       edges: []
@@ -206,8 +218,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 156ec311a042504a0800000000000000
-      internalID: -6627851650948340143
+      spriteID: ba825697f0b612340800000000000000
+      internalID: 4837265188977977515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sign3_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2
+        width: 25
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423172594acacb7b0800000000000000
+      internalID: -5207097246270155996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sign3_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 3
+        width: 28
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7097d97b33a2951e0800000000000000
+      internalID: -2208687740636268281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sign3_6
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 4
+        width: 25
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb53e5cb37d805f0800000000000000
+      internalID: -790145082880468043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sign3_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 27
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39a40d82482fe310800000000000000
+      internalID: 1436411072453323067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sign3_8
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 2
+        width: 27
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d41f7172bace7730800000000000000
+      internalID: 3998856386908722393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sign3_9
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 4
+        width: 23
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd333cb90528c570800000000000000
+      internalID: 8487074221522107838
       vertices: []
       indices: 
       edges: []

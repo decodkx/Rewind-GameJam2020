@@ -17,7 +17,8 @@ public class ReelTape : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(scriptMovement.withGas) reel += 0.001f * Input.GetAxis("Horizontal");//scriptMovement.inversor;
+        //if(scriptMovement.withGas) 
+            reel += 0.002f * Input.GetAxis("Horizontal");
         reel = Mathf.Clamp(reel, 0, 0.91f);
 
         switch (scriptMovement.inversor)
