@@ -18,7 +18,7 @@ public class ReelTape : MonoBehaviour
     void Update()
     {
         //if(scriptMovement.withGas) 
-        reel += 0.001f * Input.GetAxis("Horizontal");
+        reel += 0.0035f * Input.GetAxis("Horizontal");
         reel = Mathf.Clamp(reel, 0, 0.91f);
 
         switch (scriptMovement.inversor)

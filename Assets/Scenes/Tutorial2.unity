@@ -174,7 +174,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 4.3
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -376,8 +376,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 749839549
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -7827045836371682005, guid: 3a20b3641dd6e384cad9604b017e4aa6,
     type: 3}
@@ -400,7 +400,7 @@ Transform:
   m_GameObject: {fileID: 860821619}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.87, y: 0.293, z: 0}
-  m_LocalScale: {x: 4.9956026, y: 4.9956026, z: 4.9956026}
+  m_LocalScale: {x: 4.9956026, y: 4.9956026, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -768,8 +768,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 749839549
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: -8972521258438952371, guid: c81a111d4113206419d396bf1897ab80,
     type: 3}
