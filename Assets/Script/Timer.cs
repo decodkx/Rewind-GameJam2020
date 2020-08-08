@@ -16,7 +16,7 @@ public class Timer : MonoBehaviour
     void Start()
     {
         gameController = FindObjectOfType<GameController>();
-        t = 62;
+        t = 100;
     }
 
     // Update is called once per frame
