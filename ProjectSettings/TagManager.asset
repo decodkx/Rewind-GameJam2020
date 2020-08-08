@@ -8,6 +8,7 @@ TagManager:
   - life
   - limit
   - enemy
+  - win
   layers:
   - Default
   - TransparentFX

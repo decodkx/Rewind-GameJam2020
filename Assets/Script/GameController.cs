@@ -51,8 +51,9 @@ public class GameController : MonoBehaviour
         panel.SetActive(false);
         gameOverCanvas.SetActive(false);
         StartCoroutine("MudarCena");
-        SceneManager.LoadScene("Scene1");
 
+
+        SceneManager.LoadScene("Scene1");
         Time.timeScale = 1;
     }
 
@@ -71,8 +72,8 @@ public class GameController : MonoBehaviour
     {
 
         fade.FadeIn();
+        
         yield return new WaitWhile(() => fade.fume.color.a < 0.9f);
-
     }
 
 }
