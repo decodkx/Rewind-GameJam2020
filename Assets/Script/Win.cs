@@ -9,15 +9,11 @@ public class Win : MonoBehaviour
     public GameObject image;
     public Button button;
     public GameObject panel;
-    bool crash = false;
-    Animator anim;
 
 
     void Start()
     {
         panel.SetActive(false);
-        image.SetActive(false);
-        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -28,23 +24,20 @@ public class Win : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (this.gameObject.CompareTag("win"))
-        {
-            crash = true;
-            anim.SetBool("crash", crash);
-            StartCoroutine("WaitBeforeWin");
-        }
-    }
-
-    IEnumerator WaitBeforeWin()
-    {
-        yield return new WaitForSeconds(0.3f);
-
-
         Time.timeScale = 0;
         panel.SetActive(true);
-        //image.SetActive(true);
+        //StartCoroutine("WaitBeforeWin");
+        
+    }
+
+    //IEnumerator WaitBeforeWin()
+    //{
+    //    yield return new WaitForSeconds(0.3f);
+
+
+
+    //    //image.SetActive(true);
         
 
-    }
+    //}
 }
